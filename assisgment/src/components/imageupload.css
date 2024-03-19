@@ -1,0 +1,38 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .upload-section {
+      margin-top: 20px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+  
+      justify-content: center; /* Center items horizontally */
+      align-items: center; /* Center items vertically */
+    }
+    
+    input[type='file'] {
+      /* You can remove any specific styling here */
+    }
+    
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
